@@ -1,0 +1,28 @@
+web:
+  # Web监听网卡地址
+  address:  0.0.0.0
+  # Web监听端口
+  port:     9999
+  # prometheus监控端口
+  monitor_port: 13582
+  #dockergo合约IDE地址
+  docker_go_ide_url: https://ide230.chainmaker.org.cn
+
+#mysql配置信息
+db:
+ host: cm_explorer_db
+ port: 3306
+ username: root
+ password: chainmaker
+ #数据库
+ database: explorer_compile
+ #db类型： ClickHouse / Mysql /Pgsql
+ db_provider: Mysql
+
+db_redis:
+  #cluster:集群/node：单机
+  type: node
+  host:
+    - redis:6379
+  username:
+  password: explorer_redis

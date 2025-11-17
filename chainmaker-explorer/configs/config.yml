@@ -1,0 +1,175 @@
+web:
+  # Web监听网卡地址
+  address:  0.0.0.0
+  # Web监听端口
+  port:     7999
+  # 是否开启跨域:
+  cross_domain:  true
+  #对外暴露地址（公网）
+  third_apply_url:  http://127.0.0.1
+  #主子链服务地址
+  relay_cross_chain_url:  http://subchain-service:8888
+  # 合约编译服务，http://127.0.0.1:8888
+  contract_compile_url:  http://cm_compiler_server:9999
+  # prometheus监控端口
+  monitor_port: 13582
+  #管理后台密钥,用于管理后台调用浏览器接口校验
+  manage_backend_api_key: AdSGavFKmbrzesqkZPQaVD2UGnqbbC
+   # 登录过期时间,单位：天
+  login_expire_time: 7
+  # admin账户登录密码
+  admin_password: passw0rd
+
+#是否开启pprof
+pprof:
+  is_open: false
+  port: 16660
+
+#数据库
+# db:
+#   #数据库连接信息
+#   host: 127.0.0.1
+#   #数据库端口
+#   port: 3306
+#   #数据库用户名
+#   username: root
+#   #数据库密码
+#   password: 123456
+#   #数据库名称
+#   database: chainmaker_explorer_3
+#   # 表/索引-名称前缀（用于同一个数据库启动不同浏览器）
+#   prefix: 
+#   #db类型： ClickHouse / Mysql / Pgsql
+#   db_provider: Mysql
+#   #批量插入最大字节数（单位kb），默认256kb
+#   max_byte_size: 1024
+#   #单表插入，更新线程池最大并发数，默认10，最大50.
+#   max_pool_size: 10
+
+db:
+  host: 192.168.3.172
+  port: 33061
+  username: root
+  password: chainmaker
+  #数据库
+  database: chainmaker_explorer
+  # 表/索引 名称前缀
+  prefix: 
+  #db类型： ClickHouse / Mysql / Pgsql
+  db_provider: Mysql
+  #批量插入最大字节数（单位kb），默认256kb
+  max_byte_size: 1024
+  #单表插入，更新线程池最大并发数，默认10，最大50.
+  max_pool_size: 10
+
+
+#redis缓存
+db_redis:
+  #cluster:集群/node：单机
+  type: node
+  #redis地址，支持集群模式
+  host:
+    - 127.0.0.1:6379
+  username:
+  password: 
+  #缓存前缀，用于区分不同数据库
+  prefix: test_3
+
+# 是否开启右上方订阅选项
+chain:
+  #是否开启订阅
+  subscribe: false
+  #是否开启右上方订阅选项
+  show_config: true
+  #是否主链
+  is_main_chain: true
+  #主链名称
+  main_chain_name: 国家级区块链网络主网络
+  #主链ID
+  main_chain_id: chainmaker_pk
+  #链子did合约名称，默认使用第一个did合约
+  contract_config:
+    - chain_id: chainmaker_pk
+      # 主did合约名称，用于多个did合约操作同一账户时，确认使用哪一个did合约,默认使用第一个did合约
+      main_did_contract_name: DID
+
+# 订阅链配置
+chains:
+  - chain_id: chainmaker_pk
+    auth_type: public
+    org_id:
+    hash_type: SM3 #SM3/SHA256
+    tls_model: 0 #0：单证书模式，1：双证书模式
+    tls: false #是否开启tls,ture/false
+    user:
+      user_sign_key_file_path: ./configs/crypto-config/node1/user/client1/client1.key
+      user_sign_crt_file_path: 
+      user_tls_key_file_path: 
+      user_tls_crt_file_path: 
+      user_enc_key_file_path: 
+      user_enc_crt_file_path: 
+    nodes:
+      - tls_host: chainmaker.org
+        ca_paths:
+        remotes: pre-chain1.cnbn.org.cn:12391
+  
+# 敏感词过滤腾讯云服务
+sensitive:
+  enable: false
+  secret_id: 123456
+  secret_key: 123456
+
+
+# 告警
+alarmer:
+  # 开启企业微信告警
+  wechat_enable: false
+  # 开启钉钉告警
+  ding_enable: false
+  # 企业应用token
+  wechat_access_token: 0f4b72d5-09dc-4e7e-afa3-5e8258d1a1da
+  # 钉钉应用token
+  ding_access_token: 123456
+  # 告警信息前缀
+  prefix: 123456
+
+# 监控（告警信息请填写alarmer）
+monitor:
+  # 是否启用
+  enable: false
+  # 敏感词过滤预警返回最大交易数
+  safe_word_limit: 10
+  # 单用户短期大批量交易监控
+  monitor_tx:
+    # 间隔期内用户最大发交易数
+    max_tx_num: 10000
+    # 单次查询交易数
+    tx_limit: 1000
+  # 节点间允许最大区块高度差
+  max_height_diff: 10
+  # 最大尝试连接节点次数
+  try_conn_num: 3
+  # 触发间隔 (min) 至少10min
+  interval: 1
+  # 监控节点信息
+  chains:
+  - chain_id: chainmaker_pk
+    auth_type: public
+    org_id:
+    hash_type: SM3
+    tls_model: 0 #0：单证书模式，1：双证书模式
+    tls: false #是否开启tls,ture/false
+    user:
+      user_sign_key_file_path: ./configs/crypto-config/node1/user/client1/client1.key
+      user_sign_crt_file_path: 
+      user_tls_key_file_path: 
+      user_tls_crt_file_path: 
+      user_enc_key_file_path: 
+      user_enc_crt_file_path: 
+    nodes:
+      - tls_host: chainmaker.org
+        ca_paths:
+        remotes: pre-chain1.cnbn.org.cn:12391
+      - tls_host: chainmaker.org
+        ca_paths:
+        remotes: pre-chain2.cnbn.org.cn:12392

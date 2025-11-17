@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: explorer-backend-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: explorer-backend-service
+  template:
+    metadata:
+      labels:
+        app: explorer-backend-service
+    spec:
+      containers:
+        - name: explorer-backend-service
+          image: hub-dev.cnbn.org.cn/opennet/chainmaker-explorer-backend:v2.3.7
+          imagePullPolicy: Always
+          volumeMounts:
+            - name: explorer-backend-config-volume
+              mountPath: /chainmaker-explorer-backend/configs
+            - name: explorer-backend-client-volume
+              mountPath: /chainmaker-explorer-backend/configs/crypto-config/node1/user/client1
+      volumes:
+        - name: explorer-backend-config-volume
+          configMap:
+            name: explorer-backend-config
+        - name: explorer-backend-client-volume
+          configMap:
+            name: explorer-backend-client
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: explorer-backend-service
+spec:
+  selector:
+    app: explorer-backend-service
+  ports:
+    - protocol: TCP
+      port: 17773
+      targetPort: 9999

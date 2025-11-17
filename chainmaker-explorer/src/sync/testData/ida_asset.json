@@ -1,0 +1,91 @@
+{
+    "basic": {
+        "id": "420240918134707017000058793",
+        "name": "4飞飞的产品资产名称呀哈哈6",
+        "enName": "4assetEnName_feifei_yaha6",
+        "tags": [
+            "关键词1",
+            "这个关键字不显示没有什么用"
+        ],
+        "attachments": [
+            {
+                "url": "https://i0.hdslb.com/bfs/archive/01cbd1b736bf76740bd2ba25c5cd79574a69deaa.jpg",
+                "type": 1,
+                "created_at": "2024-09-18T13:47:07.022385+08:00"
+            },
+            {
+                "url": "https://i0.hdslb.com/bfs/archive/01cbd1b736bf76740bd2ba25c5cd79574a69deaa.jpg",
+                "type": 2,
+                "created_at": "2024-09-18T13:47:07.023239+08:00"
+            }
+        ],
+        "category": 2,
+        "industry": {
+            "id": 9,
+            "code": "A",
+            "title": "信息传输、软件和信息技术服务业"
+        },
+        "summary": "产品介绍",
+        "creator": "a24e97eb801ecfbe72145b7571c1542bc6faf316",
+        "authorization": 0,
+        "visitMode": 0
+    },
+    "ownership": {
+        "holder": "a24e97eb801ecfbe72145b7571c1542bc6faf316",
+        "holderCompany": "云链",
+        "holderCreditCode": "feifei"
+    },
+    "source": {
+        "type": 1,
+        "channel": "来源渠道",
+        "update_cycle": {
+            "update_cycle_type": 2,
+            "cycle": 10,
+            "update_cycle_unit": 1
+        }
+    },
+    "scenarios": {
+        "applicable_scenarios": "适用场景",
+        "prohibited_scenarios": "禁用场景"
+    },
+    "supply": {
+        "immediately_supply": true,
+        "delayed_supply_time": "2024-09-19T08:00:00+08:00"
+    },
+    "details": {
+        "user_categories": [],
+        "data_format": 1,
+        "time_span": "2024/09/26 ~ 2024/09/30",
+        "custom_info": "[]",
+        "data_scale": {
+            "type": 1,
+            "scale": 10
+        }
+    },
+    "privacy": {},
+    "status": {
+        "created_at": "2024-09-27T13:47:07.017065+08:00",
+        "updated_at": "2024-09-27T13:47:07.017219+08:00"
+    },
+    "apis": [
+        {
+            "header": "[{\"field\":\"accept-encoding\",\"type\":\"String\",\"desc\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\"},{\"field\":\"server\",\"type\":\"String\",\"desc\":\"openresty\"}]",
+            "params": "[{\"field\":\"power_of_attorney\",\"type\":\"String\",\"desc\":\"我没有填写这个参数呀\",\"disabled\":\"精准授权时，该参数不可修改\"}]",
+            "response": "[]",
+            "url": "https://www.bejson.com/1",
+            "method": "GET",
+            "respType": "JSON",
+            "testUrl": "https://www.bejson.com/",
+            "respExample": "",
+            "apiDescribe": "",
+            "paramExample": ""
+        }
+    ],
+    "dataset": {
+        "db_name": "chainservice",
+        "table_name": "chain_info"
+    },
+    "encrypt": {
+        "is_encrypted": false
+    }
+}
