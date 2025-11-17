@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-10-13T08:59:25.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="YCmsTR7pk3HrRxDgOGkc" version="21.7.5" type="device">
+  <diagram name="第 1 页" id="wyvGSVaAvX0XCKTbeLDU">
+    <mxGraphModel dx="1206" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-1" target="U2NoSfoc5M2I_jDLggRg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="20" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-2" target="U2NoSfoc5M2I_jDLggRg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-2" value="根据冷热判定&lt;br style=&quot;font-size: 14px;&quot;&gt;方案划分数据冷热" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="200" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-4" target="U2NoSfoc5M2I_jDLggRg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-4" value="将冷数据&lt;br style=&quot;font-size: 14px;&quot;&gt;写入冷数据库" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="380" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-6" target="U2NoSfoc5M2I_jDLggRg-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-6" target="U2NoSfoc5M2I_jDLggRg-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-6" value="是否在&lt;br style=&quot;font-size: 14px;&quot;&gt;进行出块操作" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="560" y="135" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-8" target="U2NoSfoc5M2I_jDLggRg-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-8" value="将冷数据从&lt;br style=&quot;font-size: 14px;&quot;&gt;热数据库中删除" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="760" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-11" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="940" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="U2NoSfoc5M2I_jDLggRg-13" target="U2NoSfoc5M2I_jDLggRg-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-13" value="等待出块操作完成" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="570" y="305" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-16" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="630" y="230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U2NoSfoc5M2I_jDLggRg-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="700" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

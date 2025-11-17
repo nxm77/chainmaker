@@ -1,0 +1,196 @@
+<mxfile host="Electron" modified="2023-07-24T03:40:24.864Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="eSQf0ARLphrjonXSslHT" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="b4nO7fxIMRiwKmUyAoYF">
+    <mxGraphModel dx="2474" dy="1214" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-102" value="中继跨链" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-331" y="169" width="1255" height="1635" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-103" value="中继链" style="swimlane;startSize=20;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-102">
+          <mxGeometry y="20" width="421" height="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-103" source="jieEO7Ixr6_uVIPBlScW-106" target="jieEO7Ixr6_uVIPBlScW-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-106" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-103">
+          <mxGeometry x="138.5" y="53" width="111" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-103" source="jieEO7Ixr6_uVIPBlScW-107" target="jieEO7Ixr6_uVIPBlScW-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-107" value="启动中继链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-103">
+          <mxGeometry x="134" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-103" source="jieEO7Ixr6_uVIPBlScW-108" target="jieEO7Ixr6_uVIPBlScW-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-108" value="编辑中继网&lt;br&gt;关配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-103">
+          <mxGeometry x="134" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-109" value="启动中继网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-103">
+          <mxGeometry x="134" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-132" value="部署SPV验证合约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-103">
+          <mxGeometry x="131.5" y="1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-104" value="业务链a" style="swimlane;startSize=20;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-102">
+          <mxGeometry x="421" y="20" width="350" height="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-110" target="jieEO7Ixr6_uVIPBlScW-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-110" value="部署业务链a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="114.5" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-121" target="jieEO7Ixr6_uVIPBlScW-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-121" value="编辑跨链网关配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-122" target="jieEO7Ixr6_uVIPBlScW-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-122" value="注册跨链网关到中继网关中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="546" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-123" target="jieEO7Ixr6_uVIPBlScW-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-123" value="启动跨链网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="644" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-124" target="jieEO7Ixr6_uVIPBlScW-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-124" value="在跨链网关中注册业务链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="742" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-126" target="jieEO7Ixr6_uVIPBlScW-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-162" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jieEO7Ixr6_uVIPBlScW-156">
+          <mxGeometry x="-0.4148" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-126" value="验证方式是否为SPV" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="96" y="885" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-133" target="jieEO7Ixr6_uVIPBlScW-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-133" value="跨链合约部署" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="1194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-134" target="jieEO7Ixr6_uVIPBlScW-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-134" value="跨链触发器设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="1303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-104" source="jieEO7Ixr6_uVIPBlScW-135" target="jieEO7Ixr6_uVIPBlScW-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-135" value="发起跨链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="115" y="1407" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-136" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-104">
+          <mxGeometry x="119.5" y="1553" width="111" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-105" value="业务链b" style="swimlane;startSize=20;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-102">
+          <mxGeometry x="771" y="20" width="484" height="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-120" target="jieEO7Ixr6_uVIPBlScW-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-120" value="部署业务链b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182.5" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-127" target="jieEO7Ixr6_uVIPBlScW-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-127" value="编辑跨链网关配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-128" target="jieEO7Ixr6_uVIPBlScW-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-128" value="注册跨链网关到中继网关中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="546" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-129" target="jieEO7Ixr6_uVIPBlScW-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-129" value="启动跨链网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="644" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-130" target="jieEO7Ixr6_uVIPBlScW-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-130" value="在跨链网关中注册业务链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="742" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-131" target="jieEO7Ixr6_uVIPBlScW-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-163" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jieEO7Ixr6_uVIPBlScW-157">
+          <mxGeometry x="-0.5284" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-131" value="验证方式是否为SPV" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="163" y="885" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-137" target="jieEO7Ixr6_uVIPBlScW-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-137" value="跨链合约部署" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="1194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-138" target="jieEO7Ixr6_uVIPBlScW-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-138" value="跨链触发器设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="1303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-105" source="jieEO7Ixr6_uVIPBlScW-139" target="jieEO7Ixr6_uVIPBlScW-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-139" value="发起跨链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="182" y="1407" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-140" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jieEO7Ixr6_uVIPBlScW-105">
+          <mxGeometry x="186.5" y="1553" width="111" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-102" source="jieEO7Ixr6_uVIPBlScW-109" target="jieEO7Ixr6_uVIPBlScW-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-102" source="jieEO7Ixr6_uVIPBlScW-110" target="jieEO7Ixr6_uVIPBlScW-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-102" source="jieEO7Ixr6_uVIPBlScW-126" target="jieEO7Ixr6_uVIPBlScW-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-160" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jieEO7Ixr6_uVIPBlScW-158">
+          <mxGeometry x="-0.2177" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jieEO7Ixr6_uVIPBlScW-102" source="jieEO7Ixr6_uVIPBlScW-131" target="jieEO7Ixr6_uVIPBlScW-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="934" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jieEO7Ixr6_uVIPBlScW-161" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jieEO7Ixr6_uVIPBlScW-159">
+          <mxGeometry x="-0.4991" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,51 @@
+<mxfile host="Electron" modified="2023-10-17T01:33:09.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="ZbUUk-UYTu5UFOkJ7j11" version="21.7.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1206" dy="750" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gSpIVGqox2X3MYwZpf1d-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="133" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gSpIVGqox2X3MYwZpf1d-0" target="gSpIVGqox2X3MYwZpf1d-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-0" value="&lt;font face=&quot;Times New Roman&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; style=&quot;font-size: 14px;&quot;&gt;在热数据库&lt;br style=&quot;font-size: 14px;&quot;&gt;中查找数据&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="208" y="103" width="138" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gSpIVGqox2X3MYwZpf1d-5" target="gSpIVGqox2X3MYwZpf1d-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gSpIVGqox2X3MYwZpf1d-5" target="gSpIVGqox2X3MYwZpf1d-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-5" value="是否查到&lt;br style=&quot;font-size: 14px;&quot;&gt;数据或错误" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="432" y="87.5" width="129.5" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gSpIVGqox2X3MYwZpf1d-7" target="gSpIVGqox2X3MYwZpf1d-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-7" value="在冷数据库&lt;br style=&quot;font-size: 14px;&quot;&gt;中查找数据" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="648" y="103" width="138" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-11" value="返回结果或错误" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="426.87" y="256" width="139.75" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-13" value="返回结果或错误" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="864" y="103" width="136" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-14" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="16" y="103" width="114" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-17" value="没有查到&lt;br style=&quot;font-size: 14px;&quot;&gt;且无错误" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="112" width="80" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="gSpIVGqox2X3MYwZpf1d-18" value="查到结果&lt;br style=&quot;font-size: 14px;&quot;&gt;或有错误" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="486.62" y="192.5" width="80" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
